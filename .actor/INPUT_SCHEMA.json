@@ -1,0 +1,24 @@
+{
+  "title": "Upwork Scraper Input",
+  "description": "Configuration for Upwork job listing scraping",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "queries": {
+      "title": "Search Queries",
+      "type": "array",
+      "description": "Job search queries for Upwork",
+      "items": { "type": "string" },
+      "editor": "stringList"
+    },
+    "maxJobs": {
+      "title": "Maximum Jobs",
+      "type": "integer",
+      "description": "Maximum number of jobs to scrape",
+      "default": 30,
+      "minimum": 1,
+      "maximum": 500
+    }
+  },
+  "required": ["queries"]
+}
