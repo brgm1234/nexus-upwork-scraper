@@ -1,0 +1,9 @@
+{
+  "actorSpecVersion": 1,
+  "name": "nexus-upwork scraper",
+  "title": "Upwork Scraper",
+  "description": "Crawls upwork.com job search, extracts title, budget, description, skills, posted, clientCountry, proposals, jobUrl",
+  "version": "1.0.0",
+  "buildTag": "latest",
+  "environmentVariables": [],
+}
